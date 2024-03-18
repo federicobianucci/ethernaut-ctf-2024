@@ -1,0 +1,12 @@
+[profile.default]
+src = 'src'
+libs = ['lib']
+fs_permissions = [{ access = 'read-write', path = '/'}]
+
+remappings = [
+    "forge-std=lib/forge-std/src",
+    "forge-ctf=lib/forge-ctf/src",
+]
+
+[rpc_endpoints]
+rpc = "http://34.147.101.83:8545/agZvrqnPzlANSJZFQQZvznWH/main"
